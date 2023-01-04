@@ -1,0 +1,58 @@
+body{
+    background: rgb(146, 45, 177);
+    font: normal 15pt Arial;
+}
+
+img{
+    border-radius: 50%;
+    width: auto;
+    height: 100px;
+    border: 3px;
+    border-style: solid;
+    border-color: #fff;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+#buttons{
+    position: relative;
+    background: #fff;
+    border-radius: 8px;
+    height: 40px;
+    width: 300px;
+    padding-top: 15px;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.473);
+    opacity: 0.7;
+    user-select: none;
+    color: black;
+    border: 1px;
+    border-color: #fff;
+    border-style: solid;
+    transition: 0.3s;
+}
+
+#about{
+    background-color: #fff;
+    height: 30;
+    width: auto;
+}
+
