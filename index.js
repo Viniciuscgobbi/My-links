@@ -10,18 +10,18 @@ for (let i = 0; i < obj.length; i++){
     let buttons = document.createElement("div")
     function redirect(){
         buttons.style.background = '#fff'
-        buttons.style.color = 'black'
+        buttons.style.color = '#282828'
         open(`${techs[obj[i]]}`)
     }
 
     function bcolorenter() {
-        buttons.style.background = 'rgb(119, 32, 146)'
+        buttons.style.background = '#262626'
         buttons.style.color = '#fff'
     }
 
     function bcolorleave() {
         buttons.style.background = '#fff'
-        buttons.style.color = 'black'
+        buttons.style.color = '#282828'
     }
 
     buttons.setAttribute('id',`buttons`)

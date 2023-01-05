@@ -1,5 +1,5 @@
 body{
-    background: rgb(146, 45, 177);
+    background: #1d2021;
     font: normal 15pt Arial;
 }
 
@@ -43,7 +43,7 @@ footer{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.473);
     opacity: 0.7;
     user-select: none;
-    color: black;
+    color: #282828;
     border: 1px;
     border-color: #fff;
     border-style: solid;
